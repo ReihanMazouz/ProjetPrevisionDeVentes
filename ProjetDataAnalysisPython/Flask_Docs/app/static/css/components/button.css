@@ -1,0 +1,50 @@
+.button {
+	background-color: #04bfb9;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 4px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+
+}
+
+.button:hover{
+	background-color: transparent;
+	color: black;
+	border: solid 2px #04bfb9;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+
+.categoryBtn {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 10px;
+	background-color: rgba(230,230,230,0.15);
+	/*width: 20%;*/
+	text-align: center;
+	/*opacity: 0.5;*/
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+	color: black;
+
+}
+
+.categoryBtn:active {
+	background-color: white;
+	color: black;
+
+}
+
+#hommes {
+	background-color: white; 
+	color: black;
+}
+
+#femmes {
+	opacity: 0.5;
+}

@@ -1,0 +1,104 @@
+#newsletter {
+    padding: 30px;
+    background-color: rgba(230,230,230,0.15);
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+#email {
+    padding : 13px;
+    border: solid 2px #04bfb9;
+    margin-right: 5px;
+}
+
+#social {
+    padding: 5px;
+    background-color: #04bfb9;
+    margin-bottom: 0px;
+}
+
+#facebook {
+    color: white;
+}
+
+#instagram {
+    color: white;
+}
+
+#twitter {
+    color: white;
+}
+
+#facebook:hover {
+    color: #4267b2;
+}
+#instagram:hover {
+    color: #8a3ab9;
+}
+#twitter:hover {
+    color: #1CA1F2;
+}
+
+.list-inline {                               /*Delete the bullet points of the list*/
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.list-inline li{                            /* Horizontal list*/
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{                             /*Custom list icons */
+    font-size: 50px;
+}
+
+
+#mentions {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #04bfb9
+}
+
+#mentions div {
+	width: 30%;
+}
+
+#mentions li {
+	list-style: none;
+}
+
+#mentions h3 {
+	color: white;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+#mentions a {
+	color:white;
+	padding: 1px;
+	font-size: 10px;
+}
+
+#legal {
+	width: 100%;
+	background-color: #04bfb9;
+	padding-bottom: 40px;
+}
+
+
+#credit p {
+	margin: 20px 0;
+	text-align: center;
+}
+
+#credit i {
+	color: #04bfb9;
+    font-size: 15px;
+}
+
+
+

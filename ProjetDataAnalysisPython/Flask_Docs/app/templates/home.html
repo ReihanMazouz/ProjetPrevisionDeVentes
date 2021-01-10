@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Python Project</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<script src="https://kit.fontawesome.com/609257d7be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav>
+
+		<ul class="nav-links">
+			<li> 
+				<a href="/" ><i class="fas fa-home"></i>Accueil </a> 
+			</li>
+			<li> 
+				<a href="/visu" ><i class="fas fa-chart-line"></i>Visualisation</a>
+			</li>
+			<li> 
+				<a href="/pred" ><i class="fas fa-chart-area"></i>Prediction</a>
+			</li>
+			<li> 
+				<a href="https://github.com/ReihanMazouz/ProjetPrevisionDeVentes" ><i class="fab fa-github"></i>GitHub</a>
+			</li>
+		</ul>
+
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+
+	<div id="profSect1" class="white">
+		<div class="container">
+				<div class="flex3" id="profile">
+					<h3> Prévision de vente d'un article dans un supermarché </h3>
+					<p>
+						Nous disposons d'un dataset nous donnant des informations sur la vente d'un article en grande surface pour chaque jour de l'année 
+						de 2016 à 2019. 
+					</p>
+					<p>
+						Les Paramètres dont nous disposons sont : la quantité d'article vendu, le CA produit par la vente de cette article et par la vente de la famille de l'article, le benéfice qui en découle (marge),le chiffre d'affaire total du magasin et enfin la température et l'humidité dans le magasin. 
+					</p>
+					<p>
+						L'objéctif est de pouvoir prédire la quantité d'article vendu pour un jour futur.  
+					</p>
+				</div>
+		</div>
+	</div>
+
+	<footer>	
+		<div id="newsletter">
+			<div class="container">
+				<div class="flex">
+						<p> <span>Souscrivez à notre Newsletter </span></p>
+					<div>	
+						<input id="email" placeholder="Votre adresse email...">
+						<a class="button"> Soumettre </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="credit">
+			<div class="container">
+				<p> Made with <i class="fas fa-heart"></i> by Lorenzo & Reihan</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="app.js"></script>	
+</body>
+</html>

@@ -1,0 +1,121 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 10px;
+    color: black;
+}
+
+
+.card h3 {
+    margin: 10px 10px;
+    text-align: center;
+    padding: 7px;
+    background-color: white;
+    color: black;
+
+}
+
+.card h3:hover {
+    margin: 10px auto;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #04bfb9;
+}
+
+.card a:hover {
+    color: white;
+}
+
+.categoryCard {
+    width: 50%;
+    padding-top: 0px;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    color: black;
+    margin-bottom: 40px; 
+    flex-basis: 30%;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.categoryCard:hover {
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.4);
+
+}
+
+.categoryCard img {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+
+}
+
+.categoryCard h4 {
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.articleCard {
+    width: 45%;
+    padding-top: 0px;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.articleCard:hover {
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+
+}
+
+.articleCard img {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+
+}
+
+.categoryCard h4 {
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+
+/* Specific design with ID */ 
+
+#card1 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 95%) , url(../../images/man.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card2 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 95%) , url(../../images/woman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card3 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 95%) , url(../../images/bags.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,550 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:300,400,700);
+@import url(components/.css);
+@import url("components/container.css");
+@import url(components/button.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/searchbar.css);
+@import url(components/product.css);
+@import url(components/avatar.css);
+@import 'navbar.css';
+@import 'footer.css';
+
+
+
+body{
+	font-family: 'lato', serif; 
+	font-size: 19px;
+	margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bold; 
+}
+
+a {
+	text-decoration: none;
+    color: black;
+}
+
+i {
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+p {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.divText{
+    width: 200px
+}
+
+
+/* CUSTOM DESIGN WITH CLASS */
+
+
+.white {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+
+}
+
+
+.lightGrey {
+    background-color: rgba(230,230,230,0.15);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex p {
+    text-align: justify;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%
+    
+}
+
+.columnText {
+    width: 40%;
+    text-align: left;
+}
+
+.columText h2 {
+    text-align: left;
+}
+
+.columnImg {
+    width: 40%;
+}
+
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;  
+    /*list-style: none;*/
+    font-size : 14px;
+    /*margin: 0px auto;*/
+    padding: 0px;
+}
+
+.information i {
+    font-size : 40px;
+    color: #c3d9d7;
+}
+
+
+.information li {
+    margin: 10px auto;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+}
+
+.populair {
+    padding: 10px;
+}
+
+.popular a {
+    padding: 20px;
+    font-size: 16px;
+    /*border-right: solid 0.5px black;
+    border-left: solid 0.5px black;*/
+}
+
+.popular h2 {
+    font-size: 16px;
+}
+
+
+.line {
+    padding: 1px;
+    background-color: #d7d9d8;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.line4 {
+    padding: 1px;
+    background-color: #d7d9d8;
+    width: 100%;
+}
+
+
+
+
+
+/* SECTIONS DE LA PAGE D'ACCUEIL */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+#accSect1 {
+    padding-top: 60px;
+    padding-bottom: 20px;   
+    margin-bottom: 30px
+}
+
+#accSect1 h2{
+    text-align: center;
+}
+
+
+#accSect2 {
+    padding-bottom: 60px;
+    padding-top: 20px;
+
+}
+
+#accSect2 h2 {
+    text-align: center;
+}
+
+#accSect3 {
+
+}
+
+
+#accSect4 {
+
+}
+
+#accSect4 h2 {
+    margin-bottom :5px;
+}
+
+#accSect5 {
+    
+}  
+
+
+/* SECTIONS DE LA PAGE BOUTIQUE */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+
+#bouSect1 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+
+#bouSect1 h3 {
+    color: grey;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+/* SECTIONS DE LA PAGE ARTICLES */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+#artSect1 {
+
+}
+
+#artSect1 h1 {
+    margin-bottom: 50px;
+}
+
+#gender {
+    display : flex;
+}
+
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#artSect1 a {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white; 
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center; 
+    align-items: center;
+    margin: 10px;
+}
+
+#artSect1 i {
+    color: grey;
+    margin-left: 5px;
+}
+
+
+/* SECTIONS DE LA PAGE PRODUIT */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+
+#proSect1 {
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+
+#proSect2 {
+   padding: 10px;
+}
+
+#proSect3 {
+
+}
+
+/* SECTIONS DE LA PAGE LOGIN */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+#logSect1 {
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+#logSect1 a {
+    font-size: 16px;
+}
+
+
+
+#newAccount {
+text-align: center;
+}
+
+
+#login {
+    width: 60%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 10px;
+    color: black;
+}
+
+#login img {
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+#login input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px grey;
+    border-radius: 4px;
+}
+
+#connect {
+    margin-bottom: 40px;
+}
+
+#connectGoogle {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    width: 60%;
+    border-radius: 4px;
+    border: solid 1px grey;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#connectFacebook {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    width: 60%;
+    border-radius: 4px;
+    border: solid 1px grey;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+/* SECTIONS DE LA PAGE PROFIL */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+#profSect1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+#profile {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+}
+
+
+#profile a {
+    font-size: 13px;
+    text-align: left;
+}
+
+#profileSections {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+#profileSections a {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    /*border-top: solid 1px grey;*/
+    border-bottom: solid 1px grey;
+}
+
+#profileSections i {
+    text-align: right;
+}
+
+#profileSections i {
+    font-size: 13px;
+}
+
+
+
+/* SECTIONS DE LA PAGE PANIER */             
+
+/* Nom d'une section = 3 première lettres du nom de la page + Sect + n° de la section au sein de la page */
+
+#panSect1 {
+    font-size: 12px;
+    padding-top: 100px;
+}
+
+#panSect1 h1 {
+    text-align: center;
+    padding-bottom : 50px;
+}
+
+#articlesList {
+    /*display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;*/
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.articlePic {
+    width: 30%;
+    margin: 0 5%;
+}
+
+.articleInfo {
+    width: 60%;
+}
+
+
+.articleInfo p {
+    font-size: 13px;
+}
+
+.articleInfo i {
+    margin-left: 80%;
+}
+
+.articleInfo a {
+    margin: 2% 2px;
+    padding: 7px;
+    border: solid 1px grey;
+    border-radius: 4px   
+}
+
+
+.actions {
+    display: flex;
+    width: 100%;
+}
+
+.actions a {
+    font-size: 8px;
+}
+
+
+.actions i {
+    font-size: 8px;
+    margin-left: 2px;
+}
+
+#bin {
+    margin: 2% 2px;
+    padding: 7px;
+    border: solid 1px red;
+    border-radius: 4px   
+    color: red;
+}
+
+
+#paiement {
+    /*width: 40%;*/
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    color: black;
+    font-size: 15px; 
+    height: 300px;
+}
+
+#paiement h2 {
+    padding-left: 10%;
+    text-transform: uppercase;
+
+}
+
+#paiement p {
+    padding-left: 10%;
+    font-size: 15px;
+    margin: 10% 0%;
+}
+
+#paiement a {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#paiement img {
+    width: 80%;
+    padding-left: 10%;
+}
+
+#articlesAndPayment {
+
+
+}

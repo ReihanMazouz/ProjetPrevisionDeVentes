@@ -1,0 +1,99 @@
+#banner1 {
+	background-image: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 95%) , url(../../images/banner_ravate.jpg);
+	color: white;
+	padding: 200px 0px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0px;
+	text-align: left;
+}
+
+#banner1 h1 {
+	font-size: 40px;
+	color: white;
+}
+
+
+#banner1 h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	text-align: left;
+	color: white;
+}
+
+#bannerBtn {
+	width: 50px;
+    margin: 10px auto;
+    display: flex;
+    float: left;
+}
+
+#bannerBtn a:hover {
+	color: black;
+	background-color: white;
+}
+
+
+#banner2 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 95%) , url(../../images/model.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#banner2 h1 {
+	font-size: 40px;
+}
+
+
+#banner2 h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+#btn-banner2:hover {
+	color: black;
+	background-color: white;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#banner3 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 95%) , url(../../images/clothing.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#banner3 h1 {
+	font-size: 40px;
+}
+
+
+#banner3 h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+#btn-banner3:hover {
+	color: black;
+	background-color: white;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+

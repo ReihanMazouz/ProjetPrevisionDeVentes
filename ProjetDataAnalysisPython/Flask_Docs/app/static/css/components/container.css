@@ -1,0 +1,155 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#articlesList {
+      width: 55%;
+    }
+
+#paiement {
+    width: 40%;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 600px;
+    }
+
+    /*#articlesList {
+      width: 55%;
+    }
+
+    #paiement {
+    width: 40%;
+  }*/
+
+}
+
+
+
+/*@media (min-width: 768px) {
+
+    #articlesList {
+      width: 55%;
+    }
+
+    #paiement {
+    width: 40%;
+  }
+}*/
+
+
+@media (max-width: 768px) {
+
+    .container {
+      width: 600px;
+    }
+
+  @media (max-width: 420px) {
+
+
+  .container {
+      width: 350px;
+   }
+
+
+   .columnImg{
+    display: none;
+   }
+
+   #columnText1{
+    width : 90%;
+    text-align: center;
+    margin: 0px auto;
+   }
+
+   #columnText2{
+    width : 90%;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+
+  #proSect1 {
+    padding-bottom: 0px;
+    margin-bottom: 80px;
+  }
+
+  #preview img {
+    display: none;
+  }
+
+  .flex2 {
+    flex-direction: column;
+  }
+
+  #info div {
+    margin-right: 10%; 
+    margin-left: 10%;
+  }
+
+  #articlesAndPayment {
+    flex-direction: column;
+  }
+
+  #articlesList {
+    margin: 0px 5%;
+  }
+
+  .actions {
+    flex-wrap: wrap;
+  }
+
+  #paiement {
+    width: 95%;
+    margin: 0px auto;
+    padding-top : 50px;
+    padding-bottom: 50px;
+  }
+
+  #articlesList {
+      width: 95%;
+      margin: 50px auto;
+    }
+
+
+
+}
+
+@media (max-width: 350px) {
+
+
+    .container {
+      width: 300px;
+   }
+
+   .information {
+    text-align: left;
+   }
+
+   #email {
+    margin: 20px;
+   }
+
+
+   .columnImg{
+    display: none;
+   }
+
+   #columnText1{
+    width : 90%;
+    text-align: center;
+    margin: 0px auto;
+   }
+
+   #columnText2{
+    width : 90%;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+}
+    

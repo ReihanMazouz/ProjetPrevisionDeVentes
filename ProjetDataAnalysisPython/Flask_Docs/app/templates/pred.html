@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Python Project</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<script src="https://kit.fontawesome.com/609257d7be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav>
+
+		<ul class="nav-links">
+			<li> 
+				<a href="/" ><i class="fas fa-home"></i>Accueil </a> 
+			</li>
+			<li> 
+				<a href="/visu" ><i class="fas fa-chart-line"></i>Visualisation</a>
+			</li>
+			<li> 
+				<a href="/pred" ><i class="fas fa-chart-area"></i>Prediction</a>
+			</li>
+			<li> 
+				<a href="https://github.com/ReihanMazouz/ProjetPrevisionDeVentes" ><i class="fab fa-github"></i>GitHub</a>
+			</li>
+		</ul>
+
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+
+	<div id="profSect1" class="white">
+		<div class="container">
+			<div class="flex3" id="profile">
+				<h3> Résultat des prédictions </h3>
+				<form action="/result" method = "POST">
+				    <p>Prix Unitaire <input type = "text" name = "Prix" /></p>
+				    <p>Marge <input type = "text" name = "Marge" /></p>
+				    <p>Chiffre d'affaire <input type = "text" name = "CA" /></p>
+				    <p>Temperature <input type = "text" name = "Temperature" /></p>
+				    <p>Humidité <input type = "text" name = "Humidite" /></p>
+				    <p><input type = "submit" value = "Soumettre" /></p>
+				</form>
+			</div>	
+		</div>
+	</div>
+
+	<footer>	
+		<div id="newsletter">
+			<div class="container">
+				<div class="flex">
+						<p> <span>Souscrivez à notre Newsletter </span></p>
+					<div>	
+						<input id="email" placeholder="Votre adresse email...">
+						<a class="button"> Soumettre </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="credit">
+			<div class="container">
+				<p> Made with <i class="fas fa-heart"></i> by Lorenzo & Reihan</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="app.js"></script>	
+</body>
+</html>
